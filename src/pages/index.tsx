@@ -1,8 +1,6 @@
 import Head from "next/head";
-import { EventCard } from "../components/EventCards";
 import { Header } from "../components/Header";
 import { HomePage } from "../layouts/Home";
-import { FullContainer } from "../styles/global";
 
 export default function Home() {
   return (
@@ -13,10 +11,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <FullContainer>
-        <Header />
-        <HomePage />
-      </FullContainer>
+      <HomePage />
     </>
   );
 }

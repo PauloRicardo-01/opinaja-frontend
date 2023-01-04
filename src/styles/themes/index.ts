@@ -1,6 +1,6 @@
 export const darkTheme = {
   colors: {
-    primary: "aqua",
+    primary: "#08A6FE",
     secondary: "#1e222c",
     text: "#ffffff",
     background: "#11131b",
